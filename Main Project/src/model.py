@@ -15,7 +15,7 @@ warnings.simplefilter("ignore", UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:5174"}}, 
+CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}}, 
      supports_credentials=True, 
      allow_headers=['Content-Type', 'Authorization', 'Access-Control-Allow-Headers'], 
      methods=['GET', 'POST', 'OPTIONS'])
@@ -196,4 +196,4 @@ def predict_match():
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=5173)
