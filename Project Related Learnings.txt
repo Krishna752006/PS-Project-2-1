@@ -125,6 +125,9 @@ It is a web application framework for Node.js that simplifies building and handl
 What is an API?
 An API (Application Programming Interface) is a tool that allows different applications to interact and share functionality. For example, Zomato uses the Google Maps API to display maps in their app. The API provides only the needed features, like showing locations, without giving access to the entire Google Maps database. Another example would be a travelling service using API to get the timings of several Airlines.
 
+What is an API end Point?
+An API endpoint is a specific URL or URI where an API can access the resources or perform operations. Example: https://localhost:5000/users
+
 What are get, post, put, delete, and patch in API calls?
 In the context of APIs, GET, POST, PUT, DELETE, and PATCH are HTTP methods used to define different types of actions or operations that can be performed on resources. These are part of the HTTP protocol that APIs use for communication.
 
